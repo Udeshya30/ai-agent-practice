@@ -11,7 +11,7 @@ def run_agent(user_input):
     # Step 1 — Create plan
     plan = create_plan(user_input)
 
-    print("\n🧠 Generated Plan:\n")
+    print("\nGenerated Plan:\n")
     print(plan)
 
     system_prompt = """
@@ -64,7 +64,7 @@ FINAL: answer
 
                 query = message.split("INPUT:")[1].strip()
 
-                print("\n🔎 Executing search tool...\n")
+                print("\nExecuting search tool...\n")
 
                 results = search_web(query)
 
@@ -81,7 +81,7 @@ FINAL: answer
 
 def main():
 
-    print("\n🤖 AI Agent Started")
+    print("\nAI Agent Started")
     print("Type 'exit' to quit\n")
 
     while True:
