@@ -1,7 +1,7 @@
 from openai import OpenAI
-from config import OPENAI_API_KEY
-from tools import search_web
-from planner import create_plan
+from ai_agent_01.config import OPENAI_API_KEY
+from ai_agent_01.tools import search_web
+from ai_agent_01.planner import create_plan
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
