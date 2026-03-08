@@ -1,5 +1,7 @@
 # README.md
 
+uvicorn ai_agent_01.api:app --reload
+
 
 # 🧠 AI Research Agent (Planner + Executor Architecture)
 
